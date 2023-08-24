@@ -1,4 +1,4 @@
-package pacote2;
+package pacote1;
 
 public class Person{
     public void hello(){
