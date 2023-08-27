@@ -10,7 +10,6 @@ public class exercícios3 {
         frutas[1] = "abacaxi"; // Modificar o segundo elemento
         System.out.println("Fruta após a modificação: " + frutas[1]);
 
-
     }
 
 }
