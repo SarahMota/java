@@ -1,7 +1,7 @@
 package app;
 
 import pacote1.Dog;
-import pacote2.Person;
+import pacote1.Person;
 
 public class App {
     public static void main(String[] args) throws Exception {
