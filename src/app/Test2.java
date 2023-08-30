@@ -2,7 +2,7 @@ package app;
 
 import java.util.Scanner;
 
-public class teste2 {
+public class Test2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int dia = scan.nextInt();

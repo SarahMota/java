@@ -2,7 +2,7 @@ package lição;
 
 import java.util.Scanner;
 
-public class exercíciointroduçãolivroo {
+public class ExercicioIntroducaoLivroo {
     public static void main(String [] args) { 
         Scanner entrada = new Scanner(System.in);
         double cotaçao_dolar, valor_dolar, valor_real;

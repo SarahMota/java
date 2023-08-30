@@ -1,6 +1,6 @@
 package app;
 
-public class teste3 {
+public class Test3 {
     public static void procmedia(double x, double y) {
         double media = (x + y) / 2;
         System.out.println("media = " + media);

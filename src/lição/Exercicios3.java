@@ -1,6 +1,6 @@
 package lição;
 
-public class exercícios3 {
+public class Exercicios3 {
     public static void main(String[] args) {
         // A linha a seguir cria e inicializa um vetor de strings
         String[] frutas = {"maça", "banana", "laranja", "uva"};

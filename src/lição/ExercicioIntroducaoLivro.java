@@ -7,7 +7,7 @@ package lição;
 
 import java.util.Scanner;
 
-public class exercíciointroduçãolivro {
+public class ExercicioIntroducaoLivro {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double taxaDeConversao = 4.96;

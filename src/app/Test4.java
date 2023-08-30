@@ -1,6 +1,6 @@
 package app;
 
-public class teste4 {
+public class Test4 {
     static int x = 3, y = 1;
         public static int sub(int x, int y) {
             return x-y;
