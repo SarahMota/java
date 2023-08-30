@@ -1,6 +1,6 @@
 package pacote1;
 
-public class App {
+public class Juncao {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello Word!");
         Dog d1 = new Dog();

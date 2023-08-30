@@ -1,7 +1,7 @@
 /* Escrever um programa para ler dois números inteiros e exibi-los */
 
 
-package app.estruturassequenciais;
+package estruturassequencias;
 
 import java.util.Scanner;
 

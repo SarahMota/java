@@ -3,7 +3,7 @@ para aprender*/
 
 
 
-package app.estruturassequenciais;
+package estruturassequencias;
 
 public class Exercicio1 {
     public static void main(String [] args) {
