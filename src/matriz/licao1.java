@@ -1,4 +1,4 @@
-package matrizes;
+package matriz;
 
 public class licao1 {
     public static void main(String [] args) {
