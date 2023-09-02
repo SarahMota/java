@@ -192,6 +192,7 @@ public class Plane {
                 Passageiro passageiro = new Passageiro(nome, idade, cpf, email);
                 sistema.reservarVoo(numeroVoo, passageiro);
                 break;
+                
             case 4:
                 System.out.print("Digite o Número do Voo: ");
                 numeroVoo = scanner.nextLine();
