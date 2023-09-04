@@ -1,34 +1,23 @@
 /* Escrever um programa para ler dois números inteiros e exibi-los */
 
-
 package estruturassequencias;
 
 import java.util.Scanner;
 
 public class Exercicio2 {
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
-        int a,b;
+        
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.print("A :");
-        a=entrada.nextInt();
+       
+        System.out.print("Digite o primeiro número inteiro: ");
+        int numero1 = scanner.nextInt();
 
-        System.out.print("B :");
-        b=entrada.nextInt();
-        if(a>b)
-    {     
+        System.out.print("Digite o segundo número inteiro: ");
+        int numero2 = scanner.nextInt();
 
-        System.out.println("A é a maior com valor: "+a);
-    }else if(b>a)  
-    {
-        System.out.println("B é maior com valor:"+b);
-    }else
-    {
-        System.out.println("Os números são iguais com valor:"+a);
+        System.out.println("Você digitou os números: " + numero1 + " e " + numero2);
+
+        scanner.close();
     }
-
-    entrada.close();
- 
-    }
-
-}    
+}

@@ -2,7 +2,7 @@ package matriz;
 
 public class licao5 {
     public static void main(String [] args) {
-        int tamanho = 3;
+        int tamanho = 10;
         int[][] matriz = new int[tamanho][tamanho];
          for(int i = 0; i < tamanho; i++) {
             for(int j = 0; j < tamanho; j++) {

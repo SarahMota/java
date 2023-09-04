@@ -1,22 +1,19 @@
 package app;
 
 public class Test4 {
-    static int x = 3, y = 1;
-        public static int sub(int x, int y) {
-            return x-y;
+    public static void main(String [] args) {
+        boolean condicao1=true;
 
-}       
+        boolean condicao2=true;
 
-public static int sum(int x, int y) {
-    return x + y;
+        if(condicao1 && condicao2){
+            System.out.println("As duas condições são verdadeiras");
+        }
+        if(condicao1 || condicao2){
+            System.out.println("Uma das condições é verdadeira");
+        }
 
+        System.out.println("FIM!");
+    }
+    
 }
-
-public static void main(String[] args) {
-    System.out.println(x + ", " + y);
-    System.out.println("sum = " + sum(x, y));
-    System.out.println("sub = " + sub(x, y));
-    System.out.println(x + ", " + y);
-  }
-}
-
