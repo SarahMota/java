@@ -2,7 +2,7 @@ package array;
 
 public class Exercicio2 {
     public static void main(String[] args) {
-        int i, j, aux;
+        int i;
         int v[] = new int[20];
 
         for (i = 0; i < 20; i++)
@@ -19,6 +19,11 @@ public class Exercicio2 {
         for (i=0; i < 19; i++) {
             v[i] = v[i+1];
             v[i+1] = v[i];
+
+        }
+         System.out.print(v[i]);
+         System.out.print(" ");
+         for (i=0; i<20; i++) {
             System.out.print(v[i]);
             System.out.print(" ");
         
