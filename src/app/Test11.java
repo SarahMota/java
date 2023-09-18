@@ -10,9 +10,9 @@ public class Test11 {
         int numero = scanner.nextInt();
         
         if (numero >= 100 && numero <= 999) {
-            int terceiroDigito = numero % 10;             // Obtém o terceiro dígito
-            int segundoDigito = (numero / 10) % 10;      // Obtém o segundo dígito
-            int primeiroDigito = numero / 100;          // Obtém o primeiro dígito
+            int terceiroDigito = numero % 10;           
+            int segundoDigito = (numero / 10) % 10;      
+            int primeiroDigito = numero / 100;          
             
             int numeroInvertido = (terceiroDigito * 100) + (segundoDigito * 10) + primeiroDigito;
             
