@@ -3,15 +3,15 @@ package matriz;
 public class licao1 {
     public static void main(String [] args) {
         int[][] matriz = {
-            {3, 5, 7},
-            {1, 7, 4},
-            {6, 3, 8}
+            {1, 2, 3},
+            {4, 5, 6},
+            {7, 8, 9}
         };
 
        
-        int elemento22 = matriz[0][0]; 
+        int elemento22 = matriz[2][0]; 
         int elemento21 = matriz[1][1]; 
-        int elemento12 = matriz[0][2]; 
+        int elemento12 = matriz[0][1]; 
 
        
         System.out.println("Elemento na segunda linha e segunda coluna: " + elemento22);

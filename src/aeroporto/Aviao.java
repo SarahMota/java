@@ -43,12 +43,12 @@ class Passageiro {
     }
 }
 
-public class Plane {
+public class Aviao {
     List<Voo> voos;
     boolean adminLogado;
     Stack<Passageiro> passageirosCheckIn;
 
-    public Plane() {
+    public Aviao() {
         voos = new ArrayList<>();
         adminLogado = false;
         passageirosCheckIn = new Stack<>();

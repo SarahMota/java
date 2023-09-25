@@ -10,7 +10,10 @@ public class exercicio3 {
             pilha.push(i);
         }
         for (int i = 0; i < 100; i++){
-            System.out.println(pilha.pop());
+            pilha.push(2);
+            pilha.pop();
+            System.out.println(pilha);
+            
         }
     }
     
